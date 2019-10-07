@@ -1,0 +1,6 @@
+pandas
+xlrd
+scipy
+scikit-learn
+statsmodels
+graphviz
