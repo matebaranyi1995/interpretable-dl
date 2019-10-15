@@ -30,7 +30,7 @@ There are two ways to calculate the admission point score, and the system automa
     \end{itemize}
     At most $100$ extra points\footnote{Before 2012, advanced-level exams gave only 40 extra points, and maximum additionally acquirable points were 80, and APS was at most 480 points.} can be gained.
     
-    The maximum acquirable admission point score hence is at most 500 points.
+The maximum acquirable admission point score hence is at most 500 points.
 \end{enumerate}
 
 Each university defines a minimal admission point score (MAPS) to its programs, and accepts those students whose APS are greater than the MAPS of the desired program. The admission program is based on the Gale-Shapely matching algorithm \cite{biro2008student}.
