@@ -46,4 +46,4 @@ We have uploaded a simulated datase. We generated a new random data based on the
 This way we get a new random data with the same features.
 The marginal distribution of a selected feature will be the same as in the original data,
 but the features in the simulated data will be independent from each other.
-Later we will work on a new simulated dataset which will better suited to test a neuralnetwork framework.
+Later we will generate our dataset with a much more sophisticated method (e.g. using GANs or auto-encoders) which will be better suited to test a neural network framework.
