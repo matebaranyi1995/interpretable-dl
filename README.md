@@ -3,6 +3,9 @@
 Big homework project by team InterpretableDL, for the Deep Learning in Practice (VITMAV45) course of BUTE
 
 ## interpretability
+A key issue and one of the hottest topics in machine learning nowadays is model interpretability and explainability, especially if there are implications associated with the model’s prediction [(Molnar 2018)](https://christophm.github.io/interpretable-ml-book/). in this project for model interpretation, we use a state-of-the-art technique, namely SHAP (SHapley Additive exPlanations) values [(Lundberg & Lee. 2017)](http://papers.nips.cc/paper/7062-a-unified-approach-to-interpreting-model-predictions.pdf), that is  based on the game-theoretical concept of Shapley value .
+
+In this project we will use the [shap python module](https://github.com/slundberg/shap) for calculating the SHAP values.
 
 ## data description
 
