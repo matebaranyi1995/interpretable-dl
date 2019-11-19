@@ -1,6 +1,15 @@
 pandas
 xlrd
+openpyxl
 scipy
 scikit-learn
 statsmodels
 graphviz
+shap
+lime
+eli5
+Skater
+pdpbox
+xgboost
+# tgan
+# ctgan

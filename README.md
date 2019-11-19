@@ -2,6 +2,13 @@
 
 Big homework project by team InterpretableDL, for the Deep Learning in Practice (VITMAV45) course of BUTE
 
+## Milestone 2 update
+
+The folder milestone2 contains the main notebooks and the data: 
+* the first one includes the model initialization and early training results, it also contains early code pieces related to interpretability packages;
+* the second one includes code lines related to the synthetic data generation;
+* the uploaded data file contains synthetic data on which the test of the first notebook is executable, but results may differ significantly from the default outputs.
+
 ## data description
 
 To follow the rest of the project, it is important to understand the education system in Hungary, in particular the university admission process, in this section we give a brief overview.
