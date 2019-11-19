@@ -1,0 +1,33 @@
+name;type
+Szervezet_neve_Gazdaság- és Társadalomtudományi Kar;category
+Szervezet_neve_Gépészmérnöki Kar;category
+Szervezet_neve_Közlekedésmérnöki és Járműmérnöki Kar;category
+Szervezet_neve_Természettudományi Kar;category
+Szervezet_neve_Vegyészmérnöki és Biomérnöki Kar;category
+Szervezet_neve_Villamosmérnöki és Informatikai Kar;category
+Szervezet_neve_Építészmérnöki Kar;category
+Szervezet_neve_Építőmérnöki Kar;category
+ks_helye_Egyéb;category
+ks_helye_Főváros;category
+ks_helye_Nagyváros (megyei jogú);category
+allamilag_tamogatott;bool
+re_enrolled;bool
+nem_ferfi;bool
+verseny;bool
+felvi_osszes_skalazott;numeric
+Hozott/Tanulmányi_pontszám;numeric
+Szerzett/Érettségi_pontsz;numeric
+tobblet_skalazott;numeric
+idegen_nyelv;numeric
+magyar nyelv és irodalom;numeric
+matematika;numeric
+történelem;numeric
+választott_tárgy;numeric
+idegen_nyelv_ks;numeric
+magyar_irodalom_ks;numeric
+magyar_nyelvtan_ks;numeric
+matematika_ks;numeric
+történelem_ks;numeric
+választható_tantárgy_ks;numeric
+nyv_pontok;numeric
+erettsegi_ota_eltelt_évek;numeric
