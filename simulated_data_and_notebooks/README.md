@@ -18,3 +18,4 @@ The results may seem unrealistic due to the data generating process.
   * ```order_of_cols.txt```: colum names of the previous dataset in order of appearance
   * ```data_clean_onehot_final_simulated.csv```: output of the dataprepare... notebook based on the generated dataset
   * ```feature_types_final_simul.csv```: names and types of the features
+  * ```model_simulated.hdf5```: it contains a fitted model (trained on the simulated data) to test the interpret nb
