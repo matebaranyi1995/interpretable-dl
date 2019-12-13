@@ -14,7 +14,7 @@ The results may seem unrealistic due to the data generating process.
   * ```interpretability_onbestmodel```: ToDo
     
 ### Data files
-  * generated_data: output of the CTGAN
-  * order_of_cols.txt: colum names of the previous dataset in order of appearance
-  * data_clean_onehot_final_simulated.csv: output of the dataprepare... notebook based on the generated dataset
-  * feature_types_final_simul.csv: names and types of the features
+  * ```generated_data```: output of the CTGAN
+  * ```order_of_cols.txt```: colum names of the previous dataset in order of appearance
+  * ```data_clean_onehot_final_simulated.csv```: output of the dataprepare... notebook based on the generated dataset
+  * ```feature_types_final_simul.csv```: names and types of the features
