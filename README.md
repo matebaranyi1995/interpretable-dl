@@ -34,6 +34,10 @@ __Some jupyter notebooks are also exported as HTMLs, and can be found [in this f
     
     jupyter notebook --no-browser --allow-root --ip 0.0.0.0
 
+<hr>
+## The workflow
+
+![workflow](./figs/workflow.png)
 
 ## Interpretability
 
