@@ -37,7 +37,7 @@ __Some jupyter notebooks are also exported as HTMLs, and can be found [in this f
 <hr>
 ## The workflow
 
-![workflow](./figs/workflow.png)
+![workflow](./figures/workflow.png)
 
 ## Interpretability
 
