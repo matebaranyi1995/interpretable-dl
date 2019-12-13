@@ -8,8 +8,6 @@ graphviz
 shap
 lime
 eli5
-Skater
 pdpbox
 xgboost
-# tgan
-# ctgan
+hyperas

@@ -11,8 +11,10 @@ RUN apt-get update \
     && pip install --no-cache-dir -r requirements.txt
 
 # copying source files
-COPY milestone2/ /home/interpretable_dl/src/
-RUN ls -la /home/interpretable_dl/src/
+COPY simulated_data_and_notebooks/ /home/interpretable_dl/
 
 # starting bash instead of sh
 ENTRYPOINT /bin/bash
+
+RUN ls -la /home/interpretable_dl/
+
