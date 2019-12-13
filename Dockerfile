@@ -1,5 +1,5 @@
 # building our image from the base tensorflow image
-FROM tensorflow/tensorflow:latest-gpu-py3-jupyter
+FROM tensorflow/tensorflow:1.15.0-gpu-py3-jupyter
 
 # specifying the working directory
 WORKDIR /home/interpretable_dl
@@ -7,7 +7,7 @@ WORKDIR /home/interpretable_dl
 # installing extra packages
 COPY requirements.txt .
 RUN apt-get update \
-    && apt-get install -y apt-transport-https nano \
+    && apt-get install -y apt-utils apt-transport-https nano \
     && pip install --no-cache-dir -r requirements.txt
 
 # copying source files
