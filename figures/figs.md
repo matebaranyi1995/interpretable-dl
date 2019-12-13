@@ -1,1 +1,1 @@
-This is a folder containing a few figures. 
+This folder contains a few figures. 
