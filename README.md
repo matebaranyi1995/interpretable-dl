@@ -6,6 +6,8 @@ Team members:
   * Máté Baranyi
   * Tekla Kiss
   
+  The detailed documentation of this project can be found in the pdf file, called [InterpretableDL_documentation](./InterpretableDL_documentation.pdf).
+  
 ## Final updates
 
   * Folders Milestone 1 & 2 are kept for historical reasons only.
@@ -45,7 +47,7 @@ __Some jupyter notebooks are also exported as HTMLs, and can be found [in this f
 
 A key issue and one of the hottest topics in machine learning nowadays is model interpretability and explainability, especially if there are implications associated with the model’s prediction [(Molnar 2018)](https://christophm.github.io/interpretable-ml-book/). in this project for model interpretation, we use a state-of-the-art technique, namely SHAP (SHapley Additive exPlanations) values [(Štrumbelj & Kononenko 2014)](https://link.springer.com/article/10.1007/s10115-013-0679-x); [(Lundberg & Lee. 2017)](http://papers.nips.cc/paper/7062-a-unified-approach-to-interpreting-model-predictions.pdf) , that is  based on the game-theoretical concept of Shapley value .
 
-In this project we will use the [shap python module](https://github.com/slundberg/shap) for calculating the SHAP values, and check out other baseline methods as well.
+In this project we use the [shap python module](https://github.com/slundberg/shap) for calculating the SHAP values, and check out other baseline methods as well.
 
 ## Data description
 
@@ -81,9 +83,4 @@ The data have been provided by the Central Academic Office of Budapest Universit
 
 ## Data privacy
 
-Due to the sensitive nature of the data we will not upload the original data for Milestone 1.
-We have uploaded a simulated datase. We generated a new random data based on the frequencies of the original features.
-This way we get a new random data with the same features.
-The marginal distribution of a selected feature will be the same as in the original data,
-but the features in the simulated data will be independent from each other.
-Later we will generate our dataset with a much more sophisticated method (e.g. using GANs or auto-encoders) which will be better suited to test a neural network framework.
+Due to the sensitive nature of our data we could not upload the original data sheets here, hence one of our objectives was to generate an anonymous synthetic dataset that is somewhat similar to the original. Our goal as to use a sophisticated method and Bálint Gyires-Tóth suggested tying GANs. Fortunately, there are a few recently proposed GANs that are designed for anonymizing and modeling tabular data, e.g. [table-GAN](https://github.com/mahmoodm2/tableGAN) , [TGAN](https://github.com/DAI-Lab/TGAN), and [CTGAN](https://github.com/DAI-Lab/CTGAN). In the final version of this project, we used the CTGAN model.
