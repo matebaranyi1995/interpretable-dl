@@ -6,7 +6,12 @@ Team members:
   * Máté Baranyi
   * Tekla Kiss
   
-  The detailed documentation of this project can be found in the pdf file, called [InterpretableDL_documentation](./InterpretableDL_documentation.pdf).
+ The detailed documentation of this project can be found [here](./InterpretableDL_documentation.pdf).
+ ## Abstract
+ The early identification of students at risk of dropout is of great interest and importance worldwide, since early leaving of higher education is associated with considerable economic and social costs. In Hungary, and especially regarding STEM undergraduate programs, the dropout rate is above the EU average. In this work, using advanced machine learning models, such as deep neural networks and gradient boosted trees, we aim to predict the final academic performance of students (graduated or dropped-out) based on data that are available at the time of enrollment, that were provided by the Central Academic Office of Budapest University of Technology and Economics. In order to ensure that our uploaded dataset is anonymous, we synthesize data with a Conditional Generative Adversarial Network. 
+Besides making predictions, we also interpret our machine learning models with the help of state-of-the-art techniques such as SHAP values. The accuracy and AUC of the best-performing deep learning model are 74% and 0.74 respectively. That is quite remarkable compared to the 66% accuracy and 0.72 AUC scores of XGBoost.
+
+<hr>
   
 ## Final updates
 
