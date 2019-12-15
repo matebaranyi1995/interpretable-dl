@@ -56,7 +56,7 @@ In this project we use the [shap python module](https://github.com/slundberg/sha
 
 ## Data description
 
-To follow the rest of the project, it is important to understand the education system in Hungary, in particular the university admission process, in this section we give a brief overview.
+To follow the rest of the project, it is important to understand the education system in Hungary, in particular the university admission process, in this section we give a brief overview. The following description is from [this article](https://ieeexplore.ieee.org/abstract/document/8523888).
 
 In Hungary, secondary education consists of 4 (sometimes 5) years of schooling, preceding 8 years of elementary education and followed by higher education. Like several other countries, a five-point grading scale is used for grading, where (1) is the failing grade and (5) corresponds to excellent. At the end of the high school studies, students take a centralized exit exam called "érettségi", means maturity diploma or matura, that consists of five exams of core subjects: Mathematics, Hungarian Language and Literature, History, a chosen Foreign Language and one subject of the students' choice that they have been learning for at least 2 years. The students can decide whether they take the exam of a subject at normal or at advanced level.
 
